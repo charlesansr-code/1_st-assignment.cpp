@@ -8,7 +8,7 @@ double quiz1, quiz2, quiz3;
 double lab1, lab2;
 double midterm, finalExam;
 
-
+// im going to see this on github
 
 cout << "Enter Student Name: ";
 cin.getline(studentName, 100);
