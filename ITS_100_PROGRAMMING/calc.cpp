@@ -10,8 +10,7 @@ void displayMenu() {
     cout << "3. Multiplication" << endl;
     cout << "4. Division" << endl;
     cout << "5. Square Root" << endl;
-    cout << "6. Exit" << endl;1
-
+    cout << "6. Exit" << endl;
 }
 
 double performAddition(double a, double b) {
@@ -72,7 +71,7 @@ int main() {
             case 4:
                 cout << "Enter two numbers to divide: ";
                 cin >> num1 >> num2;
-                performDivision(num1, num2);
+                cout << "Result: " << performDivision(num1, num2) << endl;
                 break;
             case 5:
                 cout << "Enter a number for square root: ";
