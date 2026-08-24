@@ -29,8 +29,8 @@ else if (calculate >= 75){
 else if (calculate < 70){
     cout << "YOU HAVE NOT PASSED";
 }
-    else if (calculate < 50){
-    cout << "YOU HAVE FAILED";
-}
+else if (calculate < 50){
+ cout << "YOU HAVE FAILED";
+    }
 return 0;
 }
