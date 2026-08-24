@@ -5,10 +5,10 @@ using namespace std;
 cout << "HELLO THIS SIMPLE CODE IS FOR YOU TO GET YOUR AVERAGE SCORE IN THE TEST \n";
 
 double score,total;
-cout << "PLUG VALUE (the score you got) = ";
+cout << "PLUG VALUE (THE SCORE YOU GOT) = ";
 cin >> score;
 
-cout << "PLUG SECOND VALUE (your total score) = ";
+cout << "PLUG SECOND VALUE (THE SCORE YOU GOT FROM THE EXAM) = ";
 cin >> total;
 
 double calculate = score/(double)total * 100;
@@ -21,15 +21,16 @@ else if(calculate >= 90){
      cout << "WOW THATS A HIGH SCORE";
 }
 else if (calculate >= 80 ){
-    cout << "YOU ARE ABOVE AVRAGE";
+    cout << "YOU ARE ABOVE AVERAGE";
 }
-else if (calculate == 75){
+else if (calculate >= 75){
      cout << "YOU HAVE PASSED";
 }
 else if (calculate < 70){
     cout << "YOU HAVE NOT PASSED";
 }
-
-
+    else if (calculate < 50){
+    cout << "YOU HAVE FAILED";
+}
 return 0;
 }
