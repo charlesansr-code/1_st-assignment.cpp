@@ -8,7 +8,7 @@ double score,total;
 cout << "PLUG VALUE (THE SCORE YOU GOT) = ";
 cin >> score;
 
-cout << "PLUG SECOND VALUE (THE SCORE YOU GOT FROM THE EXAM) = ";
+cout << "PLUG SECOND VALUE (THE EXAM ITEMS) = ";
 cin >> total;
 
 double calculate = score/(double)total * 100;
@@ -26,10 +26,10 @@ else if (calculate >= 80 ){
 else if (calculate >= 75){
      cout << "YOU HAVE PASSED";
 }
-else if (calculate < 70){
+else if (calculate >= 70){
     cout << "YOU HAVE NOT PASSED";
 }
-else if (calculate < 50){
+else{
  cout << "YOU HAVE FAILED";
     }
 return 0;
