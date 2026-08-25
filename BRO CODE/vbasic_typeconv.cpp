@@ -1,7 +1,6 @@
 #include <iostream>
 int main(){
 using namespace std;
-
 cout << "HELLO THIS SIMPLE CODE IS FOR YOU TO GET YOUR AVERAGE SCORE IN THE TEST \n";
 
 double score,total;
@@ -26,7 +25,7 @@ else if (calculate >= 80 ){
 else if (calculate >= 75){
      cout << "YOU HAVE PASSED";
 }
-else if (calculate >= 70){
+else if (calculate <= 70){
     cout << "YOU HAVE NOT PASSED";
 }
 else{
