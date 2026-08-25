@@ -12,7 +12,6 @@ cin >> total;
 
 double calculate = score/(double)total * 100;
 cout << "You got = " << calculate << "% \n";
-
 if(calculate == 100){
     cout << "CONGRATULATIONS AND KEEP IT UP ";
 }

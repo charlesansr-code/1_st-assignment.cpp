@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 int main() {
-char studentName[100];
+char studentName[3000];
 int studentID;
 double quiz1, quiz2, quiz3;
 double lab1, lab2;
@@ -11,7 +11,7 @@ double midterm, finalExam;
 // im going to see this on github
 
 cout << "Enter Student Name: ";
-cin.getline(studentName, 100);
+cin.getline(studentName, 3000); 
 cout << "Enter Student ID Number: ";
 cin >> studentID;
 cout << "Enter Quiz 1 Score: ";
@@ -36,7 +36,7 @@ double examAverage = (midterm + finalExam) / 2.0;
 double finalGrade = (quizAverage * 0.15) + (labAverage * 0.35) + (examAverage * 0.50);
 
 
-cout << "\nStudent Name: " << studentName << "\n";
+cout << "Student Name: " << studentName << "\n";
 cout << "Student ID: " << studentID << "\n";
 cout << "Quiz 1: " << quiz1 << "\n";
 cout << "Quiz 2: " << quiz2 << "\n";
