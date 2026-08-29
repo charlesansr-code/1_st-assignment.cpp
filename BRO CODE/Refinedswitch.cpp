@@ -1,89 +1,49 @@
 #include <iostream>
-using namespace std;
-
 int main (){
-    int month;
-    
-    cout << "ENTER A NUMBER FOR THE MONTH (1 to 12)     :";
-    cin >> month;
-    
-    switch(month){
-        case 1 :
-        cout << "IT IS JANUARY";
-        break;  // Added break
-    }
-    
-    switch(month){
-        case 2 :
-        cout << "IT IS FEBRUARY";
-        break;  // Added break
-    }
-    
-    switch(month){
-        case 3 :
-        cout << "IT IS MARCH";
-        break;  // Added break
-    }
-    
-    switch(month){
-        case 4 :
-        cout << "IT IS APRIL";
-        break;  // Added break
-    }
-    
-    switch(month){
-        case 5 :
-        cout << "IT IS MAY";
-        break;  // Added break
-    }
-    
-    switch(month){
-        case 6 :
-        cout << "IT IS JUNE";
-        break;  // Added break
-    }
-    
-    switch(month){
-        case 7 :
-        cout << "IT IS JULY";
-        break;  // Added break
-    }
-    
-    switch(month){
-        case 8 :
-        cout << "IT IS AUGUST";
-        break;  // Added break
-    }
-    
-    switch(month){
-        case 9 :
-        cout << "IT IS SEPTEMBER";
-        break;  // Added break
-    }
-    
-    switch(month){
-        case 10 :
-        cout << "IT IS OCTOBER";
-        break;  // Added break
-    }
-    
-    switch(month){
-        case 11 :
-        cout << "IT IS NOVEMBER";
-        break;  // Added break
-    }
-    
-    switch(month){
-        case 12 :
-        cout << "IT IS DECEMBER";
-        break;  // Added break
-    }
-    
-    if(month > 12){
-        cout << "INVALID NUMBER";
-    }
-    else if(month <= 0)
-        cout << "INVALID NUMBER";
-    
+using namespace std;
+int month;
+cout << "ENTER A MONTH FROM (1 TO 12)";
+cin >> month;
+
+switch(month){
+    case 1:
+    cout << "TODAY IS JANUARY";
+    break;
+    case 2:
+    cout << "TODAY IS FEBUARY";
+    break;
+    case 3:
+    cout << "TODAY IS MARCH";
+    break;
+    case 4:
+    cout << "TODAY IS APRIL";
+    break;
+    case 5:
+    cout << "TODAY IS MAY";
+    break;
+    case 6:
+    cout << "TODAY JUNE";
+    break;
+    case 7:
+    cout << "TODAY IS JULY";
+    break;
+    case 8:
+    cout << "TODAY IS AUSGUST";
+    break;
+    case 9:
+    cout << "TODAY IS SEPTEMBER";
+    break;
+    case 10:
+    cout << "TODAY IS OCTOBER";
+    break;
+    case 11:
+    cout << "TODAY IS NOVEMBER";
+    break;
+    case 12:
+    cout << "TODAY IS DECEMBER";
+    break;
+default:
+cout << "PLEASE ONLY ENTER NUMBER (1 TO 12)";
+}
     return 0;
 }
